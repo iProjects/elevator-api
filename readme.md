@@ -40,32 +40,6 @@ Before you begin, ensure you have the following software installed on your syste
     npm install
     ```
 
-### Configuration
-
-The application uses an `.env` file for configuration. This file is not included in the repository for security reasons.
-
-1.  **Create a `.env` file** in the root directory of the project:
-
-    ```bash
-    touch .env
-    ```
-
-2.  **Add the following content** to the newly created `.env` file. You can adjust the values to fit your needs.
-
-    ```
-    # Application Port
-    PORT=3000
-
-    # SQLite Database Path
-    DB_PATH=./elevator.db
-
-    # Elevator System Configuration
-    NUM_ELEVATORS=5
-    MAX_FLOORS=20
-    FLOOR_TRAVEL_TIME_MS=5000
-    DOOR_ACTION_TIME_MS=2000
-    ```
-
 ### Running the Application
 
 To start the API server, use the following command:
